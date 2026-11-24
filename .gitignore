@@ -1,0 +1,22 @@
+# Python
+backend/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local runtime data, DB, OAuth tokens & user settings/keys
+backend/data/
+*.db
+*.db-shm
+*.db-wal
+.env
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+*.tsbuildinfo
+
+# OS & Editors
+.DS_Store
+Thumbs.db
+.vscode/
